@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="Taobao.Agent/Taobao.Agent.csproj" />
   <Project Path="TaobaoAPI/TaobaoAPI.csproj" />
 </Solution>
