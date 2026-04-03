@@ -1,0 +1,6 @@
+@TaobaoAPI_HostAddress = http://localhost:5246
+
+GET {{TaobaoAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
