@@ -35,6 +35,8 @@ namespace TaobaoAPI.Controllers
                     existingOrder.Title = order.Title;
                     existingOrder.price = order.price;
                     existingOrder.BuyTime = order.BuyTime;
+                    existingOrder.Status = order.Status;
+                    existingOrder.Logistics = order.Logistics;
                 }
             }
             await _context.SaveChangesAsync();
